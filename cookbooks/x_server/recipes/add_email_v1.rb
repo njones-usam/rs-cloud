@@ -1,6 +1,6 @@
 rightscale_marker :begin
 
-  include_recipe "rightscale::db_mysql"
+  ::Chef::Recipe.send(:include, RightScale::Database::MySQL::Helper)
 
   log "Starting to add the email address"
 

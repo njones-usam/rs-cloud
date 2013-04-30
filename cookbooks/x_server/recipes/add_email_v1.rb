@@ -1,6 +1,6 @@
 rightscale_marker :begin
 
-  include_recipe "db_mysql"
+  include_recipe "rightscale::db_mysql"
 
   log "Starting to add the email address"
 

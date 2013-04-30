@@ -1,7 +1,5 @@
 rightscale_marker :begin
 
-  ::Chef::Recipe.send(:include, RightScale::Database::MySQL::Helper)
-
   log "Starting to add the email address"
 
   full_name = node[:x_server][:full_name]

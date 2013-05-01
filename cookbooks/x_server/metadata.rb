@@ -7,6 +7,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
 depends "rightscale"
+depends "db_mysql"
 
 recipe "x_server::add_email_v1","Adding a new user to the database"
 
